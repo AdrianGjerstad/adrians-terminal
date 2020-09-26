@@ -1,0 +1,18 @@
+{
+  "name": "adrians-terminal",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "A simple yet comprehensive terminal plugin for Atom.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "adrians-terminal:toggle"
+  },
+  "repository": "https://github.com/atom/adrians-terminal",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

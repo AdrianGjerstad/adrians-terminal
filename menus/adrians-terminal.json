@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle adrians-terminal",
+        "command": "adrians-terminal:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "adrians-terminal",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "adrians-terminal:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
